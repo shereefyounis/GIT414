@@ -6,6 +6,16 @@ body {
     color: #5D3FD3;
 }
 
+nav ul{
+        list-style-type: none;
+    }
+
+nav a {
+    text-decoration: none;
+    color: #5D3FD3;
+}
+
+
 /* MEDIA QUERY (medium) */
 @media screen and (min-width: 600px){
     body {
