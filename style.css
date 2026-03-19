@@ -1,24 +1,10 @@
 /* CSS BY Shereef Younis */
 
 
-/*  GLOBAL STYLES*/
-body {
-    color: #5D3FD3;
-}
-
-nav ul{
-        list-style-type: none;
-    }
-
-nav a {
-    text-decoration: none;
-    color: #5D3FD3;
-}
-
-
 /* MEDIA QUERY (medium) */
-@media screen and (min-width: 600px){
+@media screen and (min-width: 640px){
     body {
+        color: #5D3FD3;
         text-align: center;
     }
 
@@ -26,5 +12,10 @@ nav a {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         list-style-type: none;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #5D3FD3;
     }
 } 
