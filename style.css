@@ -1,0 +1,20 @@
+/* CSS BY Shereef Younis */
+
+
+/*  GLOBAL STYLES*/
+body {
+    color: #5D3FD3;
+}
+
+/* MEDIA QUERY (medium) */
+@media screen and (min-width: 600px){
+    body {
+        text-align: center;
+    }
+
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        list-style-type: none;
+    }
+} 
